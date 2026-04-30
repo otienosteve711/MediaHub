@@ -14,3 +14,19 @@ c. Get your repo url on creation
 6. push using token via this command
 git push origin master
 where master is referencing the default branch where work will be saved
+
+### Incase the push doesnt work based off permissions
+- select project saving location - open terminal here 
+- gh auth logout
+- gh auth login
+
+after login proceed to do push
+
+### to get project on a new device
+- select project saving location - open terminal here
+- git clone linktorepo
+
+### To update project repo
+- git add .
+- git commit -m "commit msg here"
+- git push -u origin master/main
