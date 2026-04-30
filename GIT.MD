@@ -20,7 +20,7 @@ where master is referencing the default branch where work will be saved
 - gh auth logout
 - gh auth login
 
-after login proceed to do push
+after login proceed to do push to branch
 
 ### to get project on a new device
 - select project saving location - open terminal here
